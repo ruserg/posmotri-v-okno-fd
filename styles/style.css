@@ -16,6 +16,8 @@ html {
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  display: flex;
+  align-items: center;
 }
 
 h1,
@@ -50,11 +52,6 @@ ol {
   background-color: #d9d9d9;
 }
 
-.page {
-  display: flex;
-  align-items: center;
-}
-
 .content {
   display: flex;
   align-items: flex-end;
@@ -62,9 +59,6 @@ ol {
   width: 1140px;
   margin: 0px auto;
   gap: 30px;
-}
-
-.result {
 }
 
 .result__video-container {
@@ -233,29 +227,8 @@ ol {
   overflow-x: hidden;
 }
 
-.content__list {
-}
-
-.preloader-template {
-}
-
-.preloader {
-}
-
-.preloader-chasing-squares {
-}
-
-.square {
-}
-
-.cards-list-item-template {
-}
-
 .content__list-item:not(:last-child) {
   margin-bottom: 30px;
-}
-
-.content__list-item {
 }
 
 .content__card-link {
